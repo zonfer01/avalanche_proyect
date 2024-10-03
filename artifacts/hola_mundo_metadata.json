@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "saludo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"hola_mundo.sol": "hola_mundo"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"hola_mundo.sol": {
+			"keccak256": "0x294a5019b996de4c7aa19b60b3b0827d3335448fa87f3ba0845405bdb8f8d9c5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://76e5130d03e37a072921acb5c8bda5f091d87861c62ede1fd83128b84962ace3",
+				"dweb:/ipfs/QmbnmXz8pUdzps1wtczZJeUTSqzJscaQcoeHgH1rseGfP8"
+			]
+		}
+	},
+	"version": 1
+}

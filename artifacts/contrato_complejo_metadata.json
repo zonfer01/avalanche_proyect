@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "nuevo_saludo",
+						"type": "string"
+					}
+				],
+				"name": "guardar_saludo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "leer_saludo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "saludo_estatico",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contrato_complejo.sol": "contrato_complejo"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contrato_complejo.sol": {
+			"keccak256": "0xe5f8493ccaf2421e839cde049441e70db3f5b7935a724a0c0944e8ccc1b3038d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://024cacedd5052bbca1e9b69108a37bded3a3e3f5b8fe285c43bafd36f78760c6",
+				"dweb:/ipfs/QmW78hmK9oWnz2WLGkekxjUBTVCqKFNZ9G5RGMdQVzSYZt"
+			]
+		}
+	},
+	"version": 1
+}

@@ -3,6 +3,12 @@ pragma solidity ^0.8.24;
 
 contract tarea{
     string private fullname;
+
+// las nciones con returns se hacen para datos estaticos
+//las funciones con string es dinamico  
+
+    //inicializas el contrato con un constructor
+    //el contructor sirve para inicializar el contrato con una palabra tipo clave o parecido 
     constructor(string memory nombre_completo) {
         fullname = string.concat("Tu Nombre completo es:", " ", nombre_completo); 
     } 

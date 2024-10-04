@@ -9,6 +9,30 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "_edad_init",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "edad_init",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "_numero",
 						"type": "uint256"
 					}
@@ -53,7 +77,7 @@
 		"userdoc": {
 			"kind": "user",
 			"methods": {
-				"establecer_numero(uint256)": {
+				"edad_init()": {
 					"notice": "variable de estado que almacena la edad"
 				}
 			},
@@ -77,11 +101,11 @@
 	},
 	"sources": {
 		"clases sintaxis_avalanche/portero_bar.sol": {
-			"keccak256": "0x093a27b76a6cecfd57863f60462ffb5b8c7baebb1274a0dfda2824739f007dd0",
+			"keccak256": "0xba1936b60a2602f96ffe90b319043f0983a1b98d42aa1eaa5f0a5a05ed911f65",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://80bc33d88e5edfae3270a5f9059a66b2b81f7e7b0674a5523f2a0043377412fa",
-				"dweb:/ipfs/QmTDytBmerUcXVMLr7qmtNML8X3uJ9X8a4vy4UEzZBQPEs"
+				"bzz-raw://ab318844dcca783fc391cda335a537c1ea32ca03293c1d83c7f90002adcaa82b",
+				"dweb:/ipfs/QmSDyyPfB6iwtf6JusK63Tbc42ifaJdsGqn13hFPuy3RiQ"
 			]
 		}
 	},

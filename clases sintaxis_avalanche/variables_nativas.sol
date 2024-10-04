@@ -2,6 +2,7 @@
 pragma solidity ^0.8.24;
 contract variables_nativas{
     string private full_name;
+    //este contrato me permite ver cierta variables 
     //el contructor sirve para pedir una variable para el diploy
     constructor(string memory _lastName) {
         full_name = string.concat("Juan", " ", _lastName); // variables de incializacion

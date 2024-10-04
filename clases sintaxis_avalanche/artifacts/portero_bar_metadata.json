@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_numero",
+						"type": "uint256"
+					}
+				],
+				"name": "establecer_numero",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "mensaje",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "numero",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"establecer_numero(uint256)": {
+					"notice": "variable de estado que almacena la edad"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"clases sintaxis_avalanche/portero_bar.sol": "portero_bar"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"clases sintaxis_avalanche/portero_bar.sol": {
+			"keccak256": "0x093a27b76a6cecfd57863f60462ffb5b8c7baebb1274a0dfda2824739f007dd0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://80bc33d88e5edfae3270a5f9059a66b2b81f7e7b0674a5523f2a0043377412fa",
+				"dweb:/ipfs/QmTDytBmerUcXVMLr7qmtNML8X3uJ9X8a4vy4UEzZBQPEs"
+			]
+		}
+	},
+	"version": 1
+}
